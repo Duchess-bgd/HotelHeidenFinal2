@@ -1,0 +1,59 @@
+body {background-color: rgb(0, 0, 0);
+color: rgb(179, 178, 178);
+overflow-x: hidden;
+font-size: 120%;}
+
+.list-group-item{border: 1px solid rgba(0,0,0,0);}
+
+.card{background-color: black;}
+
+.card-body{border-bottom-left-radius:5%; border-bottom-right-radius:5%; }
+
+.card-img-top{border-top-left-radius:5%; border-top-right-radius:5%; }
+
+.bg-providno{background-color: rgba(0, 0, 0, 0);}
+
+#about {background-image: url("../slike/gray.jpg");
+	background-size: cover;}
+
+#facilities {background-image: url("../slike/black.jpg");
+		background-size: cover;}
+.sel{border-radius: 5px;
+	color:rgb(0, 105, 237);
+border: 2px solid rgb(0, 105, 237);
+background-color: rgba(80, 82, 172, 0.39);}
+
+.roun{border-radius: 10px;}
+
+#mailrez{
+	height:2em;
+	width: 90%;
+	margin-top: 1em;
+}
+
+.bckg-dark{/*background-image: url("slike/black.jpg");*/
+	background-color: rgb(41, 41, 41);
+	background-repeat: no-repeat;
+	background-size: cover;}
+
+
+.redErr{
+	border-color:red;
+}
+
+/*Rooms*/
+
+
+.gal-item{
+	overflow: hidden;
+	padding: 8px;
+}
+.gal-item .box{
+	height: 50%;
+	overflow: hidden;
+}
+.box img{
+	height: 50%;
+	width: auto;
+	object-fit:cover;
+}

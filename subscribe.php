@@ -21,7 +21,7 @@ if (empty($email)) {
 
         echo "You have been successfully subscribed";
         }else{
-        echo "An error occurred, please try again";;
+        echo "You are already subscribed";
         }
 
 }

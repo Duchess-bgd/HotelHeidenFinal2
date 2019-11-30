@@ -55,6 +55,12 @@ $ts = $_GET['tip-sobe'] ?? '';
     <tbody class="text-light">
 
 <?php
+     if (count($rez)==0){
+   ?> 
+  <tr>
+        <td colspan=5 class="text-danger m-5 p-5 h4">*There are no available rooms for required conditions</td>
+    </tr>
+  <?php }else{
     foreach ($rez as $red){ ?>
       <tr> 
         <td class="d1"><?=$sd1?></td>
@@ -66,7 +72,7 @@ $ts = $_GET['tip-sobe'] ?? '';
         <td><button class="btn-primary p-2 rounded-lg confirm" data-rid="<?=$red['room_info_id']?>">Confirm</button></td>
       </tr>
 
-      <?php } ?>
+      <?php }} ?>
 
     </tbody>
   </table>

@@ -34,9 +34,9 @@
 								<p>We are present on social media so please stay in touch and keep up with our latest news.</p>
 								<div>
 								<ul class="row">
-									<li class="m-1 list-group-item"><a href="http://www.facebook.com"><img class="img-fluid" src="slike/fbLogo.png" alt=""></i></a></li>
-									<li class="m-1 list-group-item"><a href="http://www.instragram.com"><img class="img-fluid" src="slike/instaLogo.png" alt=""></i></a></li>
-									<li class="m-1 list-group-item"><a href="http://www.twitter.com"><img class="img-fluid" src="slike/twitterLogo.png" alt=""></i></a></li>
+									<li class="m-1 list-group-item"><a href="http://www.facebook.com" target="_blank"><img class="img-fluid" src="slike/fbLogo.png" alt=""></i></a></li>
+									<li class="m-1 list-group-item"><a href="http://www.instragram.com" target="_blank"><img class="img-fluid" src="slike/instaLogo.png" alt=""></i></a></li>
+									<li class="m-1 list-group-item"><a href="http://www.twitter.com" target="_blank"><img class="img-fluid" src="slike/twitterLogo.png" alt=""></i></a></li>
 								</ul>
 							</div>
 							</div>

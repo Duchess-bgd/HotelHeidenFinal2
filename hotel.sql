@@ -31,14 +31,14 @@ SET time_zone = "+00:00";
 CREATE TABLE `mailing_list` (
   `id` int(11) NOT NULL,
   `mail` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `delete` tinyint(1) NOT NULL
+  `deleted` tinyint(1) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `mailing_list`
 --
 
-INSERT INTO `mailing_list` (`id`, `mail`, `delete`) VALUES
+INSERT INTO `mailing_list` (`id`, `mail`, `deleted`) VALUES
 (14, 'hallorann@yahoo.com', 0),
 (15, 'ullman@gmail.com', 0);
 

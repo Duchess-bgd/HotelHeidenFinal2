@@ -37,7 +37,7 @@ include_once "menu.php";
 					</div>
 					<div class="input-group">
 						<label>Password</label>
-						<input type="password" name="password">
+						<input type="password" name="password" required>
 					</div>
 					<input class="btn" type="submit" value="LogIn" name="login_btn"></input>
 				</form>

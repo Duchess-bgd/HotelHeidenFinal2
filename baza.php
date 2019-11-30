@@ -64,12 +64,13 @@
             $sql .= "('$d' BETWEEN check_in AND check_out) ";
             for($i = $dp; $i < $d2; $i->modify('+1 day')){
                 $d = $i->format("Y-m-d");
-                $sql .= "AND ('$d' BETWEEN check_in AND check_out) ";
+                $sql .= "OR ('$d' BETWEEN check_in AND check_out) ";
             }
             $sql .= ") ";
             if($tip !== '')
                 $sql .= "AND room_info_id=$tip ";
             $sql .= "ORDER BY room_info_id";
+            echo "<script>console.log(\"".$sql."\");</script>";
             return $this->selectQuery($sql);
         }
 
@@ -82,7 +83,7 @@
             $sql .= "('$d' BETWEEN check_in AND check_out) ";
             for($i = $podaci->d1->modify('+1 day'); $i < $podaci->d2; $i->modify('+1 day')){
                 $d = $i->format("Y-m-d");
-                $sql .= "AND ('$d' BETWEEN check_in AND check_out) ";
+                $sql .= "OR ('$d' BETWEEN check_in AND check_out) ";
             }
             $sql .= ") AND R.room_info_id=".$podaci->rid." AND R.description LIKE '".$podaci->d."' ";
             $sql .= "LIMIT 1";

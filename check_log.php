@@ -44,7 +44,7 @@ function login(){
 		else
 			header('location: admin/index.php');
 	}else{
-		greska("*Nije pronadjena kombinacija email-pass");
+		greska("*Wrong email/password");
 	}
 }
 function register(){

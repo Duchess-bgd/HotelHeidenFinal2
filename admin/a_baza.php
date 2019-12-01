@@ -276,5 +276,5 @@
 
     $db = new Baza();
     if(!$db->isAdmin()){
-        die('Restricted area. Please <a href="../register.php">LOGIN</a>'.$_SESSION['user'].$_SESSION['user_type']);
+        die('Restricted area. Please <a href="../register.php">LOGIN</a>');
     }

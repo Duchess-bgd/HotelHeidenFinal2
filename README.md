@@ -4,8 +4,8 @@ Naslov: Hotel Heiden
 Završni rad za kurs PHP programiranja u Code Academy  
 
 članovi tima: 
-Jovana Matijević
-Gordana Radović
+Jovana Matijević,
+Gordana Radović i
 Jovan Nikolić
 
 Ovaj rad predsatvlja web sajt zamišljenog hotela, koji u sebi ima ne samo predstavljen hotel vec i aplikaciju za online odabir i rezervaciju soba i apartmana. 

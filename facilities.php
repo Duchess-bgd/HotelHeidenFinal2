@@ -4,7 +4,7 @@
 					<div class="col-md-12 m-3">
 						<div class="mg-sec-title undefined mt-5 mb-5">
 							<h2>Hotel facilities</h2>
-							<p>These  sre the services you can expect in out hotel</p>
+							<p>These are the services you can expect in our hotel</p>
 						</div>
 						<div class="container">
 						<div class="row">
